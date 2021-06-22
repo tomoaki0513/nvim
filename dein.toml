@@ -1,4 +1,4 @@
-[[plugins]]
+[plugins]]
 repo = 'Shougo/dein.vim'
 
 # 形を整えてくれる
