@@ -1,6 +1,4 @@
 # nvimの設定
-<<<<<<< HEAD
-=======
 ## 前処理
   - nodeをインストール
     - brew install node
@@ -18,5 +16,4 @@
   ```
   - vimと打ってもnvimが起動する
     - zshrc,bashrcのどちらかに"alias vim='nvim'"を記述
->>>>>>> develop
 
