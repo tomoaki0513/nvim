@@ -1,23 +1,23 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# $B7A$r@0$($F$/$l$k(B
+# 形を整えてくれる
 [[plugins]]
 repo = 'prettier/vim-prettier'
 
-# $B3g8L$r<+F0$GJD$8$F$/$l$k(B
+# 括弧を自動で閉じてくれる
 [[plugins]]
 repo = 'jiangmiao/auto-pairs'
 
-# $BA43Q$N6uGr$r>C$7$F$/$l$k(B
+# 全角の空白を消してくれる
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
 
-# tab$BJd40$,$G$-$k(B
+# tab補完ができる
 [[plugins]]
 repo = 'ervandew/supertab'
 
-# $B$$$m$s$J8@8l$N%5%]!<%H(B
+# いろんな言語のサポート
 [[plugins]]
 repo = 'sheerun/vim-polyglot'
 
