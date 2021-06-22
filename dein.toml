@@ -1,2 +1,24 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
+
+# 形を整えてくれる
+[[plugins]]
+repo = 'prettier/vim-prettier'
+
+# 括弧を自動で閉じてくれる
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+
+# 全角の空白を消してくれる
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+# tab補完ができる
+[[plugins]]
+repo = 'ervandew/supertab'
+
+# いろんな言語のサポート
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+
