@@ -1,4 +1,4 @@
-[plugins]]
+[[plugins]]
 repo = 'Shougo/dein.vim'
 
 # 形を整えてくれる
@@ -17,7 +17,19 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'ervandew/supertab'
 
-# gitの操作ができる
+# gitで管理しているファイルの差分を表示
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+# gitのコマンドをvimで実行できる
 [[plugins]]
 repo = 'tpope/vim-fugitive'
+
+# ファイルツリーを表示
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+# 複数行をコメントアウトできる
+[[plugins]]
+repo = 'tpope/vim-commentary'
 
