@@ -17,8 +17,5 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'ervandew/supertab'
 
-# いろんな言語のサポート
-[[plugins]]
-repo = 'sheerun/vim-polyglot'
 
 
