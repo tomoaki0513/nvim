@@ -33,3 +33,10 @@ repo = 'scrooloose/nerdtree'
 [[plugins]]
 repo = 'tpope/vim-commentary'
 
+# チートシートを表示できる
+[[plugins]]
+repo = 'reireias/vim-cheatsheet'
+
+# リンター
+[[plugins]]
+repo = 'w0rp/ale'
