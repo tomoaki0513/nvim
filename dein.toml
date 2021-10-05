@@ -17,8 +17,26 @@ repo = 'bronson/vim-trailing-whitespace'
 [[plugins]]
 repo = 'ervandew/supertab'
 
-# いろんな言語のサポート
+# gitで管理しているファイルの差分を表示
 [[plugins]]
-repo = 'sheerun/vim-polyglot'
+repo = 'airblade/vim-gitgutter'
 
+# gitのコマンドをvimで実行できる
+[[plugins]]
+repo = 'tpope/vim-fugitive'
 
+# ファイルツリーを表示
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+# 複数行をコメントアウトできる
+[[plugins]]
+repo = 'tpope/vim-commentary'
+
+# チートシートを表示できる
+[[plugins]]
+repo = 'reireias/vim-cheatsheet'
+
+# リンター
+[[plugins]]
+repo = 'w0rp/ale'

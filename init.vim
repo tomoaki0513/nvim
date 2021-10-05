@@ -1,5 +1,6 @@
 syntax on
 set t_Co=256
+set clipboard+=unnamed
 
 set autoindent
 set smartindent
@@ -8,7 +9,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,utf-8,ucs-2,cp932,sjis
 set tabstop=2
-set shiftwidth=2
+set shiftwidth=4
 set cursorline
 set number
 set showmode
@@ -51,3 +52,5 @@ if dein#check_install()
   call dein#install()
 endif
 "End dein Scripts-------------------------
+
+let g:cheatsheet#cheat_file = '~/.cheatsheet.md'
