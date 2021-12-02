@@ -1,7 +1,7 @@
 syntax on
 set t_Co=256
 set clipboard+=unnamed
-
+set clipboard+=unnamedplus
 set autoindent
 set smartindent
 set expandtab
@@ -24,6 +24,9 @@ set nowritebackup
 set conceallevel=0
 " htmlのマッチするタグに%でジャンプ
 source $VIMRUNTIME/macros/matchit.vim
+
+vnoremap x "_x
+nnoremap x "_x
 
 hi Comment ctermfg=gray
 
@@ -54,3 +57,13 @@ endif
 "End dein Scripts-------------------------
 
 let g:cheatsheet#cheat_file = '~/.cheatsheet.md'
+
+call plug#begin('~/.vim/plugged')
+  Plug 'rust-lang/rust.vim'
+call plug#end()
+
+syntax enable
+filetype plugin indent on
+
+" 保存時に自動でrustfmt
+let g:rustfmt_autosave = 1
